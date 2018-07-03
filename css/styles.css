@@ -356,3 +356,56 @@ nav h1 a {
 }
 
 }
+/* media query for small devices */
+
+@media screen and (max-width: 697px) {
+  #map {
+    height: 55vh;
+    width: 100%;
+  }
+    #restaurants-list {
+    padding: 0;
+    padding-top: 25px;
+  }
+  #restaurants-list li{
+    width: 70%;
+    min-height: 0;
+    margin: auto;
+    margin-bottom: 18px;
+    padding: 0;
+  }
+
+  #restaurants-list li h1 {
+    margin: 15px 10px 8px;
+  }
+
+  #restaurants-list p {
+    margin: 0 15px;
+  }
+
+  #restaurants-list .restaurant-img {
+    min-height: 0px;
+  }
+
+  #restaurants-list li a {
+    width: 100%;
+    padding: 14px 0 17px;
+    border-bottom: none;
+  }
+
+  .filter-options {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .filter-options h2 {
+    padding-top: 10px;
+  }
+
+  .filter-options label {
+    width: 70%;
+    border: 1px solid black;
+  }
+
+}
