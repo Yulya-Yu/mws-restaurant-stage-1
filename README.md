@@ -3,7 +3,7 @@
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
 ### About
-This is a responsive and accessible web application that displays information about restaurants from a static database. It includes service workers to provide offline fuctionality.
+This is a responsive and accessible web application that displays information about restaurants from a static database. It includes service workers to provide offline functionality.
 
 ### How to Run
 
