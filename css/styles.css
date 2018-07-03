@@ -290,3 +290,69 @@ nav h1 a {
   color: #666;
 }
 
+/* media queries */
+
+@media screen and (max-width: 1139px) {
+  #map {
+    height: 55vh;
+    width: 100%;
+  }
+
+
+ #restaurants-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-top: 25px;
+  }
+    #restaurants-list li{
+    width: 30vw;
+    border: none;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 0;
+    height: auto;
+    min-height: 0;
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    font-family: 'Open Sans',sans-serif;
+    padding: 0 10px 0 10px;
+  }
+
+#restaurants-list .restaurant-img {
+  background-color: #ccc;
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  min-height: auto;
+  min-width: 100%;
+}
+#restaurants-list li h1 {
+  color: #f18200;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 12pt;
+  font-weight: 200;
+  letter-spacing: 0;
+  line-height: 1.3;
+  margin: 15px 0 10px;
+  text-transform: uppercase;
+}
+#restaurants-list p {
+  margin: 0;
+  font-size: 9pt;
+}
+#restaurants-list li a {
+  background-color: orange;
+  border-bottom: 2px solid #eee;
+  color: #fff;
+  display: inline-block;
+  font-size: 9pt;
+  margin: 10px 0 0;
+  padding: 5px 20px 8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+}
