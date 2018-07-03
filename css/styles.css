@@ -409,3 +409,66 @@ nav h1 a {
   }
 
 }
+
+/* media query for Reviews pages */
+
+@media screen and (max-width: 700px)  {
+
+  #breadcrumb {
+    width: calc(100% - 80px);
+  }
+
+  .inside #map-container {
+    height: 50vw;
+    position: relative;
+    margin-top: 125px;
+    top: 0;
+    width: 100%;
+  }
+
+  #reviews-list li {
+    width: 100%;
+    padding: 0 0 15px;
+    position: relative;
+  }
+
+  #restaurant-container, #reviews-container {
+    width: 90%;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  #restaurant-container {
+    margin-top: 15px;
+  }
+
+  #reviews-container {
+    padding-bottom: 15px;
+    margin-bottom: 0;
+  }
+
+  #restaurant-img, #restaurant-cuisine {
+    width: 100%;
+  }
+
+  #restaurant-name {
+    margin: 0 0 30px;
+  }
+
+  .inside #footer {
+    bottom: 0;
+    width: 100%;
+  }
+
+    #restaurant-address {
+    text-align: center;
+  }
+
+  #restaurant-hours {
+    margin: auto;
+  }
+
+
+
+}
